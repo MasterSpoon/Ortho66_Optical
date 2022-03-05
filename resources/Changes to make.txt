@@ -1,0 +1,4 @@
+Add diode footprints and break out of unused matrix parts - done
+Add 3.3v, 5v and GND test points - done
+Add logo and revision number - done
+

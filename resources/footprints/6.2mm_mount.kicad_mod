@@ -1,0 +1,20 @@
+(footprint "6.2mm_mount" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61E95ED9)
+  (zone_connect 2)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -4.2 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9692b80f-ef3f-445b-aee5-a66f46bae291)
+  )
+  (fp_text value "6.2mm_mount" (at 0 6.1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp eb9a8bb8-6746-4889-bf96-bec877b59160)
+  )
+  (fp_text user "${REFERENCE}" (at -0.1 5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 570c1acd-29de-4e20-8c17-cf322a76e164)
+  )
+  (pad "0" thru_hole circle (at 0 0) (size 6.6 6.6) (drill 6.2) (layers *.Cu *.Mask)
+    (zone_connect 2) (tstamp 67bd3ad2-c8d2-4398-96b2-3ac6e5664f7c))
+)
